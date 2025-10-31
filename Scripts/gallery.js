@@ -44,7 +44,7 @@ function showProjects(data) {
         innerHTML += `
             <div class="Project fade-up">
                 <img src="${ruta}" class="coverind">
-                <a href="portfolio.html?site=${site}&root=${root}" class="transition-link">
+                <a href="portfolio?site=${site}&root=${root}" class="transition-link">
                     <div class="overlay_img">
                         <div id="overlay_txt">${Name[2]}</div>
                     </div>
@@ -80,7 +80,7 @@ function showProjects(data) {
         innerHTML += `
             <div class="Project fade-up">
                 <img src="${ruta}" class="coverind">
-                <a href="portfolio.html?site=${site}&root=${root}" class="transition-link">
+                <a href="portfolio?site=${site}&root=${root}" class="transition-link">
                     <div class="overlay_img">
                         <div id="overlay_txt">${Name[2]}</div>
                     </div>
@@ -137,7 +137,7 @@ function showProjectsMobile(data) {
         innerHTML += `
             <div class="Project fade-up">
                 <img src="${ruta}" class="coverind">
-                <a href="portfolio.html?site=${site}&root=${root}" class="transition-link">
+                <a href="portfolio?site=${site}&root=${root}" class="transition-link">
                     <div class="overlay_img">
                         <div id="overlay_txt">${Name[2]}</div>
                     </div>
@@ -173,7 +173,7 @@ function showProjectsMobile(data) {
         innerHTML += `
             <div class="Project fade-up">
                 <img src="${ruta}" class="coverind">
-                <a href="portfolio.html?site=${site}&root=${root}" class="transition-link">
+                <a href="portfolio?site=${site}&root=${root}" class="transition-link">
                     <div class="overlay_img">
                         <div id="overlay_txt">${Name[2]}</div>
                     </div>
