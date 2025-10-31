@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Pau Ayllón - About me</title>
+
+        <link rel="icon" href="Images/about me imagen.png">
+        <link rel="stylesheet" href="Styles/About.css">
+        <link rel="stylesheet" href="Styles/NavBar.css">
+
+        <script src="Scripts/About.js" defer></script>
+        <script src="Scripts/fade_out.js" defer></script>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body class="fade">
+        
+        <div class="navbar">
+            <div>
+                <a href="index.html" id="navbar_Title" class="navbar_Title transition-link" style="text-decoration: none;">
+                    <p id="navbar_Name">PAU AYLLON ORTOLA</p>
+                    <p id="navbar_SubName">| 3D ARTIST AND PROGRAMMER</p>
+                </a>
+            </div>
+            <div id="navbar_Buttons">
+                <a href="gallery.html" class="NavBarLink transition-link"><p>GALLERY</p></a>
+                <a href="projects.html" class="NavBarLink transition-link"><p>PROJECTS</p></a>
+                <a href="about.html" class="NavBarLink transition-link"><p>ABOUT</p></a>
+            </div>
+        </div>
+
+        <div class="navbar_mobile">
+            <div>
+                <a href="/" id="navbar_Title" class="navbar_Title transition-link" style="text-decoration: none;">
+                    <p id="navbar_Name">PAU AYLLON ORTOLA</p>
+                    <p id="navbar_SubName">3D ARTIST AND PROGRAMMER</p>
+                </a>
+            </div>
+            
+            <div id="navbar_Buttons">
+                <img src="Images/iconos/menu.png" style="width: 30px; margin-left: 20px;" onclick="Navbar_Buttons()">
+            </div>
+        </div>
+
+        <div id="Navbar_Buttons">
+            <i class="close_navbar" onclick="Close_Navbar_Buttons()"></i>
+
+            <a href="/" class="NavBarLink transition-link"><p>WELCOME</p></a>
+            <a href="gallery.html" class="NavBarLink transition-link"><p>GALLERY</p></a>
+            <a href="projects.html" class="NavBarLink transition-link"><p>PROJECTS</p></a>
+            <a href="about" class="NavBarLink transition-link"><p>ABOUT</p></a>
+        </div>
+
+        <div class="Project_Container">
+            <div class="about_div">
+                <div class="about_img">
+                    <img src="Images/about me imagen.png">
+                </div>
+
+                <div class="about_txt">
+                    <p id="title_info" style="padding-top: 26%;">HI, I’M PAU AYLLÓN!</p>
+
+                    <p id="txt_info">I’m a 3D artist and a Programmer from Valencia, Spain. I studied a Digital Technology and Multimedia Degree at the Polytechnic University of Valencia.</p>
+                    <p id="txt_info">My style is heavily inspired by movies like <i><b>“Spider-Man: Into the Spiderverse”</b></i> and <i><b>“Arcane”</b></i>. I'm in love with the world of animation and cinema, and along with 3D art, I'm drawn to the idea of creating pieces with unique styles and being able to convey them through a compelling story.</p>
+                    <p id="txt_info" style="margin-bottom: 40px;">My portfolio covers a wide variety of projects, including websites, short films, animations or 3D models. Among my projects, my short film "Amanecer Pasado" stands out.</p>
+
+                    <p id="txt_mailto"><b>pauayllonortola@gmail.com</b></p>
+                    <a href="CV_PauAyllonOrtola_EN.pdf" download="PauAyllonOrtola_CV.pdf"><button class="cv_button">ABOUT ME</button></a>
+                </div>
+            </div>
+
+            <section class="spikes">
+                <div class="bottom_info">
+                    <div class="RS_div">
+                        <a href="https://www.linkedin.com/in/pauayllonortola/" id="RS_button" class="RS_button transition-link">
+                            <img src="Images/iconos/RedesSociales/png_linkedin.png" id="RS_icon">
+                        </a>
+                        <a href="mailto:pauayllonortola@gmail.com" id="RS_button" class="RS_button">
+                            <img src="Images/iconos/RedesSociales/png_email.png" id="RS_icon">
+                        </a>
+                    </div>
+                    <p id="mailto">pauayllonortola@gmail.com</p>
+                    <p id="copyright">© Copyright 2025 Pau Ayllón Ortolá - All rights reserved<br>Website programmed by <a href="https://www.linkedin.com/in/pau-ayll%C3%B3n-ortol%C3%A1-021490304/" style="text-decoration: none;">Pau Ayllón Ortolá</a></p>
+                </div>
+            </section>
+        </div>
+
+    </body>
+
+</html>

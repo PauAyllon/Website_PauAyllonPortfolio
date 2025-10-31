@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Pau Ayllón - Gallery</title>
+
+        <link rel="icon" href="Images/about me imagen.png">
+        <link rel="stylesheet" href="Styles/gallery.css">
+        <link rel="stylesheet" href="Styles/NavBar.css">
+
+        <script src="Scripts/gallery.js" defer></script>
+        <script src="Scripts/fade_out.js" defer></script>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+    
+        <div class="Background"></div>
+
+        <div class="navbar">
+            <div>
+                <a href="index.html" id="navbar_Title" class="navbar_Title transition-link" style="text-decoration: none;">
+                    <p id="navbar_Name">PAU AYLLON ORTOLA</p>
+                    <p id="navbar_SubName">| 3D ARTIST AND PROGRAMMER</p>
+                </a>
+            </div>
+            <div id="navbar_Buttons">
+                <a href="gallery.html" class="NavBarLink transition-link"><p>GALLERY</p></a>
+                <a href="projects.html" class="NavBarLink transition-link"><p>PROJECTS</p></a>
+                <a href="about.html" class="NavBarLink transition-link"><p>ABOUT</p></a>
+            </div>
+        </div>
+
+        <div class="navbar_mobile">
+            <div>
+                <a href="/" id="navbar_Title" class="navbar_Title transition-link" style="text-decoration: none;">
+                    <p id="navbar_Name">PAU AYLLON ORTOLA</p>
+                    <p id="navbar_SubName">3D ARTIST AND PROGRAMMER</p>
+                </a>
+            </div>
+            
+            <div id="navbar_Buttons">
+                <img src="Images/iconos/menu.png" style="width: 30px; margin-left: 20px;" onclick="Navbar_Buttons()">
+            </div>
+        </div>
+
+        <div id="Navbar_Buttons">
+            <i class="close_navbar" onclick="Close_Navbar_Buttons()"></i>
+
+            <a href="/" class="NavBarLink transition-link"><p>WELCOME</p></a>
+            <a href="gallery.html" class="NavBarLink transition-link"><p>GALLERY</p></a>
+            <a href="projects.html" class="NavBarLink transition-link"><p>PROJECTS</p></a>
+            <a href="about" class="NavBarLink transition-link"><p>ABOUT</p></a>
+        </div>
+
+        <div class="Project_Container" id="Project_Container">
+            <div>
+                <p id="portfolio_Title"> GALLERY</p>
+            </div>
+
+            <img src="Images/Divider.gif" style="transform: scaleX(1.2) scaleY(.6); width: 22vw;">
+            <div id="ModelsList"></div>
+            <div id="ModelsList_Mobile"></div>
+
+            <img src="Images/Divider.gif" style="transform: scaleX(1.2) scaleY(.6); margin-top: 40px; width: 22vw;">
+            <div id="DrawingList"></div>
+            <div id="DrawingList_Mobile"></div>
+
+            <section class="spikes" style="width: 1910px;">
+                <div class="bottom_info">
+                    <div class="RS_div">
+                        <a href="https://www.linkedin.com/in/pauayllonortola/" id="RS_button" class="RS_button transition-link">
+                            <img src="Images/iconos/RedesSociales/png_linkedin.png" id="RS_icon">
+                        </a>
+                        <a href="mailto:pauayllonortola@gmail.com" id="RS_button" class="RS_button">
+                            <img src="Images/iconos/RedesSociales/png_email.png" id="RS_icon">
+                        </a>
+                    </div>
+                    <p id="mailto">pauayllonortola@gmail.com</p>
+                    <p id="copyright">© Copyright 2025 Pau Ayllón Ortolá - All rights reserved<br>Website programmed by <a href="https://www.linkedin.com/in/pau-ayll%C3%B3n-ortol%C3%A1-021490304/" style="text-decoration: none;">Pau Ayllón Ortolá</a></p>
+                </div>
+            </section>
+
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,160 @@
+/* VARIABLES
+----------------------------------------------- */
+:root {
+    --background-color: #fde5dc;
+    --Tittle_color_primary: #973b35;
+    --Tittle_color_primary_hover: #b8645e;
+
+    --NavBar_Button: #4d0e0e;
+
+    --overlay_IMG: #b374709a;
+}
+
+@font-face {
+    font-family: 'Chalkboard';
+    src: url('../Fonts/Chalkboard/Chalkboard-Regular.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: 'lazy_dog';
+    src: url('../Fonts/Lazy_Dog/lazy_dog.ttf') format('truetype');
+}  
+
+@font-face {
+    font-family: 'MelonFruit';
+    src: url('../Fonts/Melon_Fruit/Melon\ Fruit.otf') format('truetype');
+} 
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../Fonts/WorkSans/Fonts/TTF/WorkSans-Variable.ttf') format('truetype');
+} 
+
+/* BASE
+----------------------------------------------- */
+body {
+    background-color: var(--background-color);
+    background-image: url(../Images/background.png);
+    margin: 0; 
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+    overflow-x: hidden;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+:root hr {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        to right,
+        transparent,
+        var(--hr-color) calc(50% - var(--hr-line-offset)),
+        var(--hr-color) calc(50% + var(--hr-line-offset)),
+        transparent
+    );
+}
+
+/* MY INFO
+----------------------------------------------- */
+
+.about_div{
+    display:flex;
+}
+
+.about_img{
+    text-align: center;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 40px;
+    width: 50%;
+}
+
+.about_img img{
+        width: 35vw;
+    }
+
+.about_txt{
+    display: inline-block;
+    text-align: justify;
+    width: 38%;
+    color:black;
+}
+
+#txt_info{
+    font-size: 22px;
+    font-family: "WorkSans";
+    color: var(--Tittle_color_primary);
+}
+
+#title_info{
+    font-size: 30px;
+    font-family: "PermanentMarker";
+    font-weight: 500;
+    color:var(--Tittle_color_primary);
+}
+
+#txt_mailto {
+    font-size: 22px;
+    font-family: "WorkSans";
+    font-weight: 100;
+    color: var(--Tittle_color_primary);
+}
+
+#button{
+    text-decoration: none; 
+    display: flex;
+    max-width: fit-content;
+}
+
+.cv_button {
+  border: none;
+  border-bottom: 2px solid var(--Tittle_color_primary);
+  background-color: #00000000;
+  color: var(--Tittle_color_primary);
+  text-align: center;
+  font-family: 'WorkSans';
+  font-size: 20px;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.cv_button:hover {
+  background-color: var(--Tittle_color_primary);
+  color: #ffffff;
+  transform: scale(1.05);
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .about_div{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+  
+    .about_txt {
+        width: 90%;
+        margin: 5%;
+        justify-content: center;
+        align-items: center;
+        display: flex
+;
+        flex-direction: column;
+    }
+
+    .about_img {
+        text-align: center;
+        display: inline-block;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .about_img img{
+        width: 75vw;
+    }
+}

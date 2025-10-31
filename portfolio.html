@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Pau Ayllón - Projects</title>
+
+        <link rel="icon" href="Images/iconos/Ventana/icono_crow_2.png">
+        <link rel="stylesheet" href="Styles/Portfolio.css">
+        <link rel="stylesheet" href="Styles/NavBar.css">
+
+        <script src="Scripts/Portfolio.js" defer></script>
+        <script src="Scripts/fade_out.js" defer></script>
+        <script src="Scripts/slider.js" defer></script>
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body class="fade">
+        
+        <div class="Background"></div>
+
+        <div id="ImageViewer">
+            <i class="close" onclick="CloseViewer()"></i>
+            <i class="arrow left ChangeImage" style="margin-left: 30px;" onclick="previousImage()"></i>
+
+            <div class="imageContainer" id="imageContainer">
+                <img id="ImageFullScreen" style="display: none;">
+                <video id="VideoFullScreen" style="display: none;" autoplay loop muted playsinline></video>
+            </div>
+
+            <i class="arrow right ChangeImage" style="margin-right: 30px;" onclick="nextImage()"></i>
+        </div>
+
+        <div class="navbar">
+            <div>
+                <a href="index.html" id="navbar_Title" class="navbar_Title transition-link" style="text-decoration: none;">
+                    <p id="navbar_Name">PAU AYLLON ORTOLA</p>
+                    <p id="navbar_SubName">| 3D ARTIST AND PROGRAMMER</p>
+                </a>
+            </div>
+            <div id="navbar_Buttons">
+                <a href="gallery.html" class="NavBarLink transition-link"><p>GALLERY</p></a>
+                <a href="projects.html" class="NavBarLink transition-link"><p>PROJECTS</p></a>
+                <a href="about.html" class="NavBarLink transition-link"><p>ABOUT</p></a>
+            </div>
+        </div>
+
+        <div class="navbar_mobile">
+            <div>
+                <a href="/" id="navbar_Title" class="navbar_Title transition-link" style="text-decoration: none;">
+                    <p id="navbar_Name">PAU AYLLON ORTOLA</p>
+                    <p id="navbar_SubName">3D ARTIST AND PROGRAMMER</p>
+                </a>
+            </div>
+            
+            <div id="navbar_Buttons">
+                <img src="Images/iconos/menu.png" style="width: 30px; margin-left: 20px;" onclick="Navbar_Buttons()">
+            </div>
+        </div>
+
+        <div id="Navbar_Buttons">
+            <i class="close_navbar" onclick="Close_Navbar_Buttons()"></i>
+
+            <a href="/" class="NavBarLink transition-link"><p>WELCOME</p></a>
+            <a href="gallery.html" class="NavBarLink transition-link"><p>GALLERY</p></a>
+            <a href="projects.html" class="NavBarLink transition-link"><p>PROJECTS</p></a>
+            <a href="about" class="NavBarLink transition-link"><p>ABOUT</p></a>
+        </div>
+
+        <div class="Project_Container">
+            <div>
+                <p id="portfolio_Title"></p>
+            </div>
+
+            <img src="Images/Divider.gif" style="transform: scaleY(.6); width: 22vw;">
+            <!-- <img src="Images/Divider Line_Animation.gif" style="margin: 20px 0px 60px 0px; transform: scaleX(1.5);"> -->
+            <!-- <hr class="GradientLine" style="width: 70%; margin: 20px 0px 60px 0px;"> -->
+
+            <div id="Portfolio_Images"></div>
+
+            <!-- <img src="Images/Divider Line_Animation.gif" style="margin: 60px 0px 60px 0px; transform: scaleX(1.5);"> -->
+            <!-- <hr class="GradientLine" style="width: 70%; margin: 60px 0px 60px 0px;"> -->
+
+            <div style="margin-top: 55px;" class="MoreProyects">
+                <div class="container">
+                    <div class="slider-wrapper">
+                    
+                    <ul class="image-list" id="project_List">
+
+                    </ul>
+
+                    <button id="prev-slide" class="slide-button material-symbols-rounded">
+                        <span class="nav-button prev" style="top: -3px; left: -2px; z-index: 50; position: relative;">&#10094;</span>
+                    </button>
+                    
+                    <button id="next-slide" class="slide-button material-symbols-rounded">
+                        <span class="nav-button next" style="top: -3px; left: 2px; z-index: 50; position: relative;">&#10095;</span>
+                    </button>
+
+                    </div>
+
+                    <div class="slider-scrollbar">
+                    <div class="scrollbar-track">
+                        <div class="scrollbar-thumb"></div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>  
+
+            <section class="spikes" style="width: 1910px;">
+                <div class="bottom_info">
+                    <div class="RS_div">
+                        <a href="https://www.linkedin.com/in/pauayllonortola/" id="RS_button" class="RS_button transition-link">
+                            <img src="Images/iconos/RedesSociales/png_linkedin.png" id="RS_icon">
+                        </a>
+                        <a href="mailto:pauayllonortola@gmail.com" id="RS_button" class="RS_button">
+                            <img src="Images/iconos/RedesSociales/png_email.png" id="RS_icon">
+                        </a>
+                    </div>
+                    <p id="mailto">pauayllonortola@gmail.com</p>
+                    <p id="copyright">© Copyright 2025 Pau Ayllón Ortolá - All rights reserved<br>Website programmed by <a href="https://www.linkedin.com/in/pau-ayll%C3%B3n-ortol%C3%A1-021490304/" style="text-decoration: none;">Pau Ayllón Ortolá</a></p>
+                </div>
+            </section>
+        </div>
+
+        <script>
+            /* 
+            const imageViewer = document.getElementById("ImageViewer");
+            const imageContainer = document.getElementById("imageContainer");
+
+            imageViewer.addEventListener("click", function (e) {
+                // Si el clic NO fue dentro del contenedor imageContainer
+                if (!imageContainer.contains(e.target)) {
+                    cerrarVisor();
+                }
+            });
+
+            function cerrarVisor() {
+                document.getElementById('ImageViewer').style.display = '';
+            } 
+            */
+        </script>
+
+    </body>
+
+</html>

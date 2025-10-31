@@ -1,0 +1,424 @@
+/* VARIABLES
+----------------------------------------------- */
+:root {
+    --background-color: #fde5dc;
+    --Tittle_color_primary: #973b35;
+    --Tittle_color_primary_hover: #b8645e;
+
+    --NavBar_Button: #4d0e0e;
+
+    --overlay_IMG: #b374709a;
+}
+
+@font-face {
+    font-family: 'Chalkboard';
+    src: url('../Fonts/Chalkboard/Chalkboard-Regular.ttf') format('truetype');
+} 
+
+@font-face {
+    font-family: 'lazy_dog';
+    src: url('../Fonts/Lazy_Dog/lazy_dog.ttf') format('truetype');
+}  
+
+@font-face {
+    font-family: 'MelonFruit';
+    src: url('../Fonts/Melon_Fruit/Melon\ Fruit.otf') format('truetype');
+} 
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('../Fonts/WorkSans/Fonts/TTF/WorkSans-Variable.ttf') format('truetype');
+} 
+
+/* BASE
+----------------------------------------------- */
+body {
+    background-color: var(--background-color);
+    background-image: url(../Images/background.png);
+    margin: 0; 
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+    overflow-x: hidden;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+.GradientLine {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #00000000, var(--Tittle_color_primary), #00000000);
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* --------------------------------------------------------------------- */
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.7;
+  transition: .3s ease;
+  cursor: pointer;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #ffffff;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+
+/* --------------------------------------------------------------------- */
+.arrow {
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 8px;
+
+    transition: .3s ease;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.ChangeImage{
+    cursor: pointer;
+}
+
+
+/* IMAGE VIEWER
+----------------------------------------------- */
+#ImageViewer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #999999aa;
+    backdrop-filter: blur(3px);
+    z-index: 21;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.imageContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    width: auto;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.imageContainer img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: .3s ease;
+}
+
+.imageContainer:hover .projectInfo{
+    opacity: 1;
+}
+
+
+/* IMAGES
+----------------------------------------------- */
+
+.Project_Container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio_Title {
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-family: "Chalkboard";
+    color: var(--Tittle_color_primary);
+}
+
+#ProjectList {
+    width:65%
+}
+
+#Portfolio_Images {
+    width: 58%;
+}
+
+.Image {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 5px 0px #00000023;
+    border: 1px solid #00000023;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.Image:hover {
+    transform: scale(.92) rotate(2deg);
+    /* border-radius: 12px; */
+    filter: opacity(.8);
+}
+
+/* ------------------------------------------------------------------------------- */
+  .container {
+    max-width: 65vw;
+    width: 100%;    
+  }
+  
+  .slider-wrapper {
+    position: relative;
+  }
+  
+  .slider-wrapper .slide-button {
+    position: absolute;
+    top: 50%;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background: var(--Tittle_color_primary);;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition-duration: .5s;
+  }
+  
+  .slider-wrapper .slide-button:hover {
+    background: var(--Tittle_color_primary_hover);;
+  }
+  
+  .slider-wrapper .slide-button#prev-slide {
+    left: -25px;
+    display: none;
+  }
+  
+  .slider-wrapper .slide-button#next-slide {
+    right: -25px;
+  }
+  
+  .slider-wrapper .image-list {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    gap: 18px;
+    font-size: 0;
+    list-style: none;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-left: 0;
+  }
+  
+  .slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider-wrapper .image-list .image-item {
+    width: 15vw;
+    object-fit: cover;
+  }
+  
+  .container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider-scrollbar .scrollbar-track {
+    background: #ccc;
+    width: 100%;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+  }
+  
+  .slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+  }
+  
+  .slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    background: var(--Tittle_color_primary);
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    cursor: grab;
+    border-radius: inherit;
+  }
+  
+  .slider-scrollbar .scrollbar-thumb:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+  }
+  
+  .slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+  }
+
+  .img_container{
+    position: relative;
+}
+
+.img_container:hover .overlay_img {
+    opacity:1;
+    transform: scale(1.05);
+    z-index: 5;
+}
+
+#coverind{transition: .3s ease;}
+
+.img_container:hover #coverind{
+    transform: scale(1.05);
+    filter: brightness(80%);
+    filter: grayscale(60%);
+
+    box-shadow: 8px 8px 8px rgba(28,28,28,.4);
+}
+
+.overlay_img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: var(--overlay_IMG);
+    backdrop-filter: blur(1px);
+}
+
+#overlay_txt{
+    color: white;
+    font-size: 25px;
+    font-family: "WorkSans";
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay_txt{
+    color: white;
+    font-size: 30px;
+    font-family: "MelonFruit";
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#ImageFullScreen {
+  width: 100%;
+  background-color: white;
+}
+#VideoFullScreen {
+  width: 55%; 
+}
+
+@media screen and (max-width: 767px) {
+
+  .Project_Container {
+    padding-top: 80px;
+}
+
+  #Portfolio_Images {
+      width: 86%;
+  }
+
+  .slider-wrapper .image-list .image-item {
+    width: 25vw;
+  }
+
+  .slider-wrapper .slide-button#prev-slide {
+    left: -53px;
+    display: none;
+  }
+  
+  .slider-wrapper .slide-button#next-slide {
+    right: -53px;
+  }
+  
+  #VideoFullScreen {
+    width: 90%; 
+  }
+}
