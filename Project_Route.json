@@ -4,7 +4,8 @@
             "Projects/Drawings/00.Portadas/01.Crimm The Wolf.png",
             "Projects/Drawings/00.Portadas/02.Dantuin.png",
             "Projects/Drawings/00.Portadas/03.Aegle.png",
-            "Projects/Drawings/00.Portadas/04.Variety.png"
+            "Projects/Drawings/00.Portadas/04.Variety.png",
+            "Projects/Drawings/00.Portadas/05.Icons.png"
         ],
         "01.Crimm The Wolf": [
             "Projects/Drawings/01.Crimm The Wolf/01.png",
@@ -12,7 +13,8 @@
             "Projects/Drawings/01.Crimm The Wolf/03.jpg",
             "Projects/Drawings/01.Crimm The Wolf/04.jpg",
             "Projects/Drawings/01.Crimm The Wolf/05.png",
-            "Projects/Drawings/01.Crimm The Wolf/07.jpg",
+            "Projects/Drawings/01.Crimm The Wolf/06.jpg",
+            "Projects/Drawings/01.Crimm The Wolf/07.gif",
             "Projects/Drawings/01.Crimm The Wolf/08.jpg",
             "Projects/Drawings/01.Crimm The Wolf/09.jpg"
         ],
@@ -20,25 +22,40 @@
             "Projects/Drawings/02.Dantuin/01.png",
             "Projects/Drawings/02.Dantuin/02.png",
             "Projects/Drawings/02.Dantuin/03.png",
-            "Projects/Drawings/02.Dantuin/04.png"
+            "Projects/Drawings/02.Dantuin/04.png",
+            "Projects/Drawings/02.Dantuin/05.png",
+            "Projects/Drawings/02.Dantuin/06.png",
+            "Projects/Drawings/02.Dantuin/07.png",
+            "Projects/Drawings/02.Dantuin/08.png"
         ],
         "03.Aegle": [
             "Projects/Drawings/03.Aegle/01.png"
         ],
         "04.Variety": [
-            "Projects/Drawings/04.Variety/01.Silksong.png",
-            "Projects/Drawings/04.Variety/02.LinkMM.png",
+            "Projects/Drawings/04.Variety/01.png",
+            "Projects/Drawings/04.Variety/02.png",
             "Projects/Drawings/04.Variety/03.png",
             "Projects/Drawings/04.Variety/04.png",
+            "Projects/Drawings/04.Variety/05.png",
             "Projects/Drawings/04.Variety/06.png",
-            "Projects/Drawings/04.Variety/07.jpg",
-            "Projects/Drawings/04.Variety/11.png",
-            "Projects/Drawings/04.Variety/12.Xeflou.png",
-            "Projects/Drawings/04.Variety/14.Pochita.jpg",
-            "Projects/Drawings/04.Variety/15.Cloud.jpg",
-            "Projects/Drawings/04.Variety/16.Ichigo.jpg",
-            "Projects/Drawings/04.Variety/17.ThesphurHalloween.jpg",
-            "Projects/Drawings/04.Variety/18.Tureli.jpg"
+            "Projects/Drawings/04.Variety/07.png",
+            "Projects/Drawings/04.Variety/08.png",
+            "Projects/Drawings/04.Variety/09.jpg",
+            "Projects/Drawings/04.Variety/10.jpg",
+            "Projects/Drawings/04.Variety/11.jpg",
+            "Projects/Drawings/04.Variety/12.jpg",
+            "Projects/Drawings/04.Variety/13.jpg",
+            "Projects/Drawings/04.Variety/14.jpg"
+        ],
+        "05.Icons": [
+            "Projects/Drawings/05.Icons/01.png",
+            "Projects/Drawings/05.Icons/02.png",
+            "Projects/Drawings/05.Icons/03.png",
+            "Projects/Drawings/05.Icons/04.png",
+            "Projects/Drawings/05.Icons/05.png",
+            "Projects/Drawings/05.Icons/06.png",
+            "Projects/Drawings/05.Icons/07.png",
+            "Projects/Drawings/05.Icons/08.jpg"
         ]
     },
     "Models": {
