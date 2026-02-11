@@ -126,18 +126,18 @@
             "Projects/Models/11.Minecraft Renders/05.png",
             "Projects/Models/11.Minecraft Renders/06.png"
         ],
-        "12.Buster Sword": [
-            "Projects/Models/12.Buster Sword/2026 02_render_1.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_3.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_4.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_5.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_6.png"
+        "12.Dantuin's Spear": [
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_2.png",
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_3.png",
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_4.png",
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_5.png"
         ],
-        "13.Dantuin's Spear": [
-            "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_2.png",
-            "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_3.png",
-            "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_4.png",
-            "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_5.png"
+        "13.Buster Sword": [
+            "Projects/Models/13.Buster Sword/2026 02_render_1.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_3.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_4.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_5.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_6.png"
         ]
     }
 }
