@@ -43,23 +43,24 @@
     },
     "Models": {
         "00.Portadas": [
-            "Projects/Models/00.Portadas/01.Bust Heads.png",
+            "Projects/Models/00.Portadas/01.Crimm 3D Bust.png",
             "Projects/Models/00.Portadas/02.Crimm 3D Avatar (Retro).png",
-            "Projects/Models/00.Portadas/03.Thesphur 3D Avatar (Retro).png",
-            "Projects/Models/00.Portadas/04.Crimm The Wolf.png",
-            "Projects/Models/00.Portadas/05.Crow.png",
-            "Projects/Models/00.Portadas/06.Pepper.png",
-            "Projects/Models/00.Portadas/07.Boat.png",
-            "Projects/Models/00.Portadas/08.Majoras's Mask.png",
-            "Projects/Models/00.Portadas/09.Space.png",
+            "Projects/Models/00.Portadas/03.Crimm The Wolf.png",
+            "Projects/Models/00.Portadas/04.Crow.png",
+            "Projects/Models/00.Portadas/05.Thesphur 3D Avatar (Retro).png",
+            "Projects/Models/00.Portadas/06.Thesphur 3D Bust.png",
+            "Projects/Models/00.Portadas/07.Pepper.png",
+            "Projects/Models/00.Portadas/08.Boat.png",
+            "Projects/Models/00.Portadas/09.Majoras's Mask.png",
             "Projects/Models/00.Portadas/10.Desert.png",
-            "Projects/Models/00.Portadas/11.Minecraft Renders.png",
-            "Projects/Models/00.Portadas/12.Dantuin's Spear.png",
-            "Projects/Models/00.Portadas/13.Buster Sword.png"
+            "Projects/Models/00.Portadas/11.Desert.png",
+            "Projects/Models/00.Portadas/12.Minecraft Renders.png",
+            "Projects/Models/00.Portadas/13.Buster Sword.png",
+            "Projects/Models/00.Portadas/14.Buster Sword.png"
         ],
-        "01.Bust Heads": [
-            "Projects/Models/01.Bust Heads/01.mp4",
-            "Projects/Models/01.Bust Heads/02.png"
+        "01.Crimm 3D Bust": [
+            "Projects/Models/01.Crimm 3D Bust/01.mp4",
+            "Projects/Models/01.Crimm 3D Bust/02.png"
         ],
         "02.Crimm 3D Avatar (Retro)": [
             "Projects/Models/02.Crimm 3D Avatar (Retro)/01.mp4",
@@ -67,77 +68,84 @@
             "Projects/Models/02.Crimm 3D Avatar (Retro)/03.mp4",
             "Projects/Models/02.Crimm 3D Avatar (Retro)/04.png"
         ],
-        "03.Thesphur 3D Avatar (Retro)": [
-            "Projects/Models/03.Thesphur 3D Avatar (Retro)/01.mp4",
-            "Projects/Models/03.Thesphur 3D Avatar (Retro)/02.png",
-            "Projects/Models/03.Thesphur 3D Avatar (Retro)/03.png",
-            "Projects/Models/03.Thesphur 3D Avatar (Retro)/04.png"
+        "03.Crimm The Wolf": [
+            "Projects/Models/03.Crimm The Wolf/0.mp4",
+            "Projects/Models/03.Crimm The Wolf/1.png",
+            "Projects/Models/03.Crimm The Wolf/2.png",
+            "Projects/Models/03.Crimm The Wolf/3.png",
+            "Projects/Models/03.Crimm The Wolf/4.jpg"
         ],
-        "04.Crimm The Wolf": [
-            "Projects/Models/04.Crimm The Wolf/0.mp4",
-            "Projects/Models/04.Crimm The Wolf/1.png",
-            "Projects/Models/04.Crimm The Wolf/2.png",
-            "Projects/Models/04.Crimm The Wolf/3.png",
-            "Projects/Models/04.Crimm The Wolf/4.jpg"
+        "04.Crow": [
+            "Projects/Models/04.Crow/01.mp4",
+            "Projects/Models/04.Crow/02.png",
+            "Projects/Models/04.Crow/03.png",
+            "Projects/Models/04.Crow/04.png"
         ],
-        "05.Crow": [
-            "Projects/Models/05.Crow/01.mp4",
-            "Projects/Models/05.Crow/02.png",
-            "Projects/Models/05.Crow/03.png",
-            "Projects/Models/05.Crow/04.png"
+        "05.Thesphur 3D Avatar (Retro)": [
+            "Projects/Models/05.Thesphur 3D Avatar (Retro)/01.mp4",
+            "Projects/Models/05.Thesphur 3D Avatar (Retro)/02.png",
+            "Projects/Models/05.Thesphur 3D Avatar (Retro)/03.png",
+            "Projects/Models/05.Thesphur 3D Avatar (Retro)/04.png"
         ],
-        "06.Pepper": [
-            "Projects/Models/06.Pepper/01.mp4",
-            "Projects/Models/06.Pepper/02.png",
-            "Projects/Models/06.Pepper/03.png"
+        "06.Thesphur 3D Bust": [
+            "Projects/Models/06.Thesphur 3D Bust/Render_1.png",
+            "Projects/Models/06.Thesphur 3D Bust/Render_2.png",
+            "Projects/Models/06.Thesphur 3D Bust/Render_3.png",
+            "Projects/Models/06.Thesphur 3D Bust/Render_4.png",
+            "Projects/Models/06.Thesphur 3D Bust/Render_Anim_1.mp4"
         ],
-        "07.Boat": [
-            "Projects/Models/07.Boat/0.mp4",
-            "Projects/Models/07.Boat/1.png",
-            "Projects/Models/07.Boat/3.png",
-            "Projects/Models/07.Boat/4.png"
+        "07.Pepper": [
+            "Projects/Models/07.Pepper/01.mp4",
+            "Projects/Models/07.Pepper/02.png",
+            "Projects/Models/07.Pepper/03.png"
         ],
-        "08.Majoras's Mask": [
-            "Projects/Models/08.Majoras's Mask/0.mp4",
-            "Projects/Models/08.Majoras's Mask/1.png",
-            "Projects/Models/08.Majoras's Mask/2.png",
-            "Projects/Models/08.Majoras's Mask/3.png",
-            "Projects/Models/08.Majoras's Mask/4.jpg"
+        "08.Boat": [
+            "Projects/Models/08.Boat/0.mp4",
+            "Projects/Models/08.Boat/1.png",
+            "Projects/Models/08.Boat/3.png",
+            "Projects/Models/08.Boat/4.png"
         ],
-        "09.Space": [
-            "Projects/Models/09.Space/1.jpg",
-            "Projects/Models/09.Space/2.png",
-            "Projects/Models/09.Space/4.png",
-            "Projects/Models/09.Space/5.png",
-            "Projects/Models/09.Space/7.png"
+        "09.Majoras's Mask": [
+            "Projects/Models/09.Majoras's Mask/0.mp4",
+            "Projects/Models/09.Majoras's Mask/1.png",
+            "Projects/Models/09.Majoras's Mask/2.png",
+            "Projects/Models/09.Majoras's Mask/3.png",
+            "Projects/Models/09.Majoras's Mask/4.jpg"
         ],
-        "10.Desert": [
-            "Projects/Models/10.Desert/1.png",
-            "Projects/Models/10.Desert/2.png",
-            "Projects/Models/10.Desert/3.png",
-            "Projects/Models/10.Desert/4.png",
-            "Projects/Models/10.Desert/5.png"
+        "10.Space": [
+            "Projects/Models/10.Space/1.jpg",
+            "Projects/Models/10.Space/2.png",
+            "Projects/Models/10.Space/4.png",
+            "Projects/Models/10.Space/5.png",
+            "Projects/Models/10.Space/7.png"
         ],
-        "11.Minecraft Renders": [
-            "Projects/Models/11.Minecraft Renders/01.png",
-            "Projects/Models/11.Minecraft Renders/02.png",
-            "Projects/Models/11.Minecraft Renders/03.png",
-            "Projects/Models/11.Minecraft Renders/04.png",
-            "Projects/Models/11.Minecraft Renders/05.png",
-            "Projects/Models/11.Minecraft Renders/06.png"
+        "11.Desert": [
+            "Projects/Models/11.Desert/1.png",
+            "Projects/Models/11.Desert/2.png",
+            "Projects/Models/11.Desert/3.png",
+            "Projects/Models/11.Desert/4.png",
+            "Projects/Models/11.Desert/5.png"
         ],
-        "12.Buster Sword": [
-            "Projects/Models/12.Buster Sword/2026 02_render_1.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_3.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_4.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_5.png",
-            "Projects/Models/12.Buster Sword/2026 02_render_6.png"
+        "12.Minecraft Renders": [
+            "Projects/Models/12.Minecraft Renders/01.png",
+            "Projects/Models/12.Minecraft Renders/02.png",
+            "Projects/Models/12.Minecraft Renders/03.png",
+            "Projects/Models/12.Minecraft Renders/04.png",
+            "Projects/Models/12.Minecraft Renders/05.png",
+            "Projects/Models/12.Minecraft Renders/06.png"
         ],
         "13.Dantuin's Spear": [
             "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_2.png",
             "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_3.png",
             "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_4.png",
             "Projects/Models/13.Dantuin's Spear/Dantuin Spear Render_5.png"
+        ],
+        "14.Buster Sword": [
+            "Projects/Models/14.Buster Sword/2026 02_render_1.png",
+            "Projects/Models/14.Buster Sword/2026 02_render_3.png",
+            "Projects/Models/14.Buster Sword/2026 02_render_4.png",
+            "Projects/Models/14.Buster Sword/2026 02_render_5.png",
+            "Projects/Models/14.Buster Sword/2026 02_render_6.png"
         ]
     }
 }
