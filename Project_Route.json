@@ -126,6 +126,7 @@
             "Projects/Models/11.Desert/4.png",
             "Projects/Models/11.Desert/5.png"
         ],
+<<<<<<< HEAD
         "12.Minecraft Renders": [
             "Projects/Models/12.Minecraft Renders/01.png",
             "Projects/Models/12.Minecraft Renders/02.png",
@@ -146,6 +147,20 @@
             "Projects/Models/14.Buster Sword/2026 02_render_4.png",
             "Projects/Models/14.Buster Sword/2026 02_render_5.png",
             "Projects/Models/14.Buster Sword/2026 02_render_6.png"
+=======
+        "12.Dantuin's Spear": [
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_2.png",
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_3.png",
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_4.png",
+            "Projects/Models/12.Dantuin's Spear/Dantuin Spear Render_5.png"
+        ],
+        "13.Buster Sword": [
+            "Projects/Models/13.Buster Sword/2026 02_render_1.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_3.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_4.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_5.png",
+            "Projects/Models/13.Buster Sword/2026 02_render_6.png"
+>>>>>>> 234671dfb5e57cec0c6b6f325f336ef597e79092
         ]
     }
 }
