@@ -73,7 +73,8 @@
             "Projects/Models/00.Portadas/11.Desert.png",
             "Projects/Models/00.Portadas/12.Minecraft Renders.png",
             "Projects/Models/00.Portadas/13.Dantuin's Spear.png",
-            "Projects/Models/00.Portadas/14.Buster Sword.png"
+            "Projects/Models/00.Portadas/14.Buster Sword.png",
+            "Projects/Models/00.Portadas/15.Earl 3D Avatar.png"
         ],
         "01.Crimm 3D Bust": [
             "Projects/Models/01.Crimm 3D Bust/01.mp4",
@@ -163,6 +164,13 @@
             "Projects/Models/14.Buster Sword/2026 02_render_4.png",
             "Projects/Models/14.Buster Sword/2026 02_render_5.png",
             "Projects/Models/14.Buster Sword/2026 02_render_6.png"
+        ],
+        "15.Earl 3D Avatar": [
+            "Projects/Models/15.Earl 3D Avatar/00.mp4",
+            "Projects/Models/15.Earl 3D Avatar/02.png",
+            "Projects/Models/15.Earl 3D Avatar/03.jpg",
+            "Projects/Models/15.Earl 3D Avatar/04.jpg",
+            "Projects/Models/15.Earl 3D Avatar/05.jpg"
         ]
     }
 }
